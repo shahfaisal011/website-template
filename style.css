@@ -1,0 +1,455 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/* header section */
+.nav{
+    width: 90%;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin-top: 35px;
+    margin-left: 75px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #f9ece6;
+    display: flex;
+    justify-content: space-between;
+     
+   
+    
+}
+/* logo section */
+.logo{
+    /* border: 2px solid red; */
+    width: 15%;
+    cursor: pointer;
+}
+.logo2{
+    text-align: center;
+    font-size: 2.4em;
+    /* padding-top: 17px; */
+}
+.sf{
+    color: chocolate;
+    
+}
+/* navbar section */
+.navbar{
+    /* border: 2px solid green; */
+    width: 40%;
+    margin-right: 15%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+    font-size: 2em;
+    text-transform: capitalize; 
+     
+
+}
+.navbar li a:hover{
+    color: chocolate;
+}
+/* copmlete header section */
+/* start hero section */
+
+.hero-section{
+    width: 90%;
+    height: 800px;
+    /* border: 2px solid red; */
+    /* margin-top: 35px; */
+    margin-left: 75px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color: #f89cab; */
+    /* border-radius: 0px 0px 10px 10px; */
+}
+.hero-section .content{
+    /* border: 2px solid green; */
+    height: 800px;
+    width: 50%;
+    background-color: #f79cab;
+    border-radius: 0px 0px 50px 10px;
+
+}
+.heading{
+    margin-top:20%;
+    margin-left: 9%;
+    font-size: 2.4em;
+    text-transform: capitalize;
+    color:rgb(61, 29, 8);
+    /* width: 50%; */
+    
+}
+.heading .h1 {
+    padding-top: 30%;
+}
+/* .heading:hover{
+    color:rgb(61, 29, 8);
+} */
+.para{
+    font-size: 1.5em;
+    margin-top: 7%;
+    margin-left: 10%;
+    /* width: 50%; */
+    font-weight: bold;
+    color: white;
+}
+.para:hover{
+    color:rgb(61, 29, 8);
+}
+.btn {
+    background-color: #db4566;
+    margin-left: 25%;
+    margin-top: 15%;
+    padding: 12px 60px;
+    border: 1px solid #db4566;
+    border-radius: 4px;
+    text-transform: uppercase;
+    
+    
+}
+button.btn{
+    color: white;
+    font-size: 2em;
+}
+button:hover{
+    background-color: transparent;
+    color: #db4566;
+}
+/* hero section part 2 */
+.hero-section .poster{
+    /* border: 2px solid blue; */
+    height: 800px;
+    width: 50%;
+    background-color:#f89cab ;
+    /* background-image: url(/imagess/slider-img.png);
+    background-repeat: no-repeat; */
+    border-radius: 0px 0px 10px 50px;
+   
+ 
+}
+.img{
+     padding-left: 30%;
+     padding-top: 10%;
+}
+/* product section */
+.name{
+    margin-top: 6%;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: underline;
+}
+.product{
+    width: 70%;
+    height: 252px;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* product list  */
+.ring{
+    width:20%;
+    /* border: 2px solid red; */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebe8e8;
+    border-radius: 4px;
+    
+}
+.watch{
+    width:20%;
+    /* border: 2px solid red; */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebe8e8;
+    border-radius: 4px;
+    
+    
+}
+.bear{
+    width:20%;
+    /* border: 2px solid red; */
+    height: 250px;
+    background-color: #ebe8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+  
+
+}
+.flower{
+    width:20%;
+    /* border: 2px solid red; */
+    height: 250px;
+    background-color: #ebe8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+    
+}
+.btn2{
+    background-color: #db4566;
+    margin-left: 40%;
+    margin-top: 6%;
+    padding: 14px 32px;
+    border: 1px solid #db4566;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* price section */
+.price{
+    background-color: #db4566;
+    margin-left: 17.8%;
+    margin-top: 0%;
+    padding: 4px 61px;
+    border: 1px solid #db4566;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.two{
+    background-color: #db4566;
+    margin-left: 2.5%;
+    margin-top: 0%;
+    padding: 4px 61px;
+    border: 1px solid #db4566;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.three{
+    background-color: #db4566;
+    margin-left: 2.5%;
+    margin-top: 0%;
+    padding: 4px 61px;
+    border: 1px solid #db4566;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.four{
+    background-color: #db4566;
+    margin-left: 2.5%;
+    margin-top: 0%;
+    padding: 4px 61px;
+    border: 1px solid #db4566;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* start hero section 2 */
+.hero-section-2{
+    width: 90%;
+    height: 500px;
+    /* border: 2px solid red; */
+    margin-left: 75px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section-2 .poster-2{
+    /* border: 2px solid green; */
+    height: 480px;
+    width: 50%;
+    background-color: #7fd7eb;
+    border-radius: 20px 0px 20px 20px;
+}
+.hero-section-2 .content-2{
+    /* border: 2px solid blue; */
+    height: 480px;
+    width: 50%;
+    background-color: #7fd7eb;
+    border-radius: 0px 20px 20px 20px;
+}
+.img-2{
+    padding-left: 5%;
+     padding-top: 64px
+}
+h3{
+    text-align: center;
+    padding-top: 73px;
+    font-size: 2.6em;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding-right: 70px;
+    color:rgb(61, 29, 8);
+}
+p{
+    padding-top: 20px;
+    color:rgb(61, 29, 8);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+/* button section */
+.btn-3{
+    margin-left: 114px;
+    margin-top: 36px;
+}
+.btn-3 button{
+    background-color: #109dbd;
+    padding: 15px 48px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.btn-3 button:hover{
+    background-color: transparent;
+    color:white;
+    border-radius: 5px;
+}
+/* service section */
+h5{
+    text-align: center;
+    font-size: 4em;
+    padding-top: 70px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:rgb(61, 29, 8);
+    
+}
+.container{
+    width: 70%;
+    height: 252px;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .fast{
+    width: 23%;
+    height: 250px;
+    /* border: 2px solid red; */
+    background-color: #ebe8e8;
+    border-radius: 5px;
+}
+.container .free{
+    width: 23%;
+    height: 250px;
+    /* border: 2px solid red; */
+    background-color: #ebe8e8;
+    border-radius: 5px;
+}
+.container .quality{
+    width: 23%;
+    height: 250px;
+    /* border: 2px solid red; */
+    background-color: #ebe8e8;
+    border-radius: 5px;
+}
+/* contact section */
+h6{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: capitalize;
+    color:rgb(61, 29, 8);
+}
+.contact{
+    margin-left: 400px;
+}
+.contact input{
+  
+    background-color: #ebe8e8;
+   text-align: center;
+    padding-right: 300px;
+    padding-top: 31px;
+    margin: 11px;
+    font-size: 2em;
+}
+.buton button{
+    
+    margin-left: 45%;
+    padding-top: 20px 50px;
+    padding: 12px 60px;
+    margin-top: 30px;
+    background-color: #db4566;
+    font-size: 20px;
+    border-radius: 6px;
+    
+}
+.buton button:hover{
+    background-color: transparent;
+    color: red;
+}
+/* footer section start */
+.footer{
+    width: 90%;
+    height: 350px;
+    /* border: 2px solid blue; */
+    margin-top: 8%;
+    margin-left:75px;
+    display: flex;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+}
+.footer .about{
+    width: 33%;
+    height: 300px;
+    /* border: 2px solid blue; */
+
+}
+.footer .about a{
+    margin-left: 100px;
+    font-size: 2em;
+    color: white;
+    text-transform: capitalize;
+}
+.footer .about a:hover{
+    color: chocolate;
+}
+
+.footer .help{
+    width: 33%;
+    height: 300px;
+    /* border: 2px solid blue; */
+
+}
+.footer .contact-2{
+    width: 34%;
+    height: 300px;
+    /* border: 2px solid blue; */
+
+}
+.help .needs{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-decoration:underline;
+    text-transform: capitalize;
+}
+.help .need{
+    color: white;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.contact-2 .address{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+/* end work complete */
+ 
+
+
+
+
